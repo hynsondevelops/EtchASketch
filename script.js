@@ -8,8 +8,9 @@ $(document).ready(function()
 
 function CreateGrid(size) 
 {
+	$div = "<div> class = 'unit'></div>";
 	for (i = 0; i < size; i++)
 	{
-		$(".grid").append("<div> class = 'unit'></div>");
+		$("#grid").append($div);
 	}
 }
