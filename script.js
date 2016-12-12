@@ -2,8 +2,8 @@ $(document).ready(function()
 {
 	//load grid woo
 	$h1 = $("<h1> Etch A Sketch </h1>");
-	$grid = $("<div id = 'grid'> </div>");
-	$("body").append($grid);
+	$div = $("<div id = 'grid'> </div>");
+	$("body").append($div);
 	CreateGrid(5);
 });
 
