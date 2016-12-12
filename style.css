@@ -1,7 +1,7 @@
 #unit
 {
 	display: block;
-	color: blue;
+	background: red;
 	height: 100px;
 	width: 100px;
 }
@@ -9,7 +9,7 @@
 .grid
 {
 	display: block;
-	color: blue;
+	background: blue;
 	height: 1000px;
 	width: 1000px;
 }
