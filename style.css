@@ -1,15 +1,13 @@
 #unit
 {
-	display: block;
-	background: red;
 	height: 100px;
 	width: 100px;
+	background: red;
 }
 
 .grid
 {
-	display: block;
-	background: blue;
 	height: 1000px;
 	width: 1000px;
+	background: blue;
 }
