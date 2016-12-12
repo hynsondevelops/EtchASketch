@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-	//load grid
+	//load grid woo
 	$h1 = $("<h1> Etch A Sketch </h1>");
 	$grid = $("<div id = 'grid'> </div>")
 	CreateGrid(5);
