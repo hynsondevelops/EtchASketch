@@ -5,6 +5,7 @@ $(document).ready(function()
 	$div = $("<div id = 'grid'> </div>");
 	$("body").append($h1, $div);
 	CreateGrid(5);
+	ColorUnit();
 });
 
 function CreateGrid(size) 
@@ -14,4 +15,12 @@ function CreateGrid(size)
 	{
 		$("#grid").append($div);
 	}
+}
+
+function ColorUnit()
+{
+	$('unit').mouseenter(function()
+	{
+		$(this).css('background-color', 'black');
+	})
 }
