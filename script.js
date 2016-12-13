@@ -10,6 +10,9 @@ $(document).ready(function()
 
 function CreateGrid(size) 
 {
+	newGridSize = size * (parseInt($('.unit').height()) + parseInt($('.unit'.css('marginTop'))
+	$('#grid').height(newGridSize);
+	$('#grid').width(newGridSize);
 	$div = "<div class = 'unit'></div>";
 	for (i = 0; i < size; i++)
 	{
@@ -19,7 +22,7 @@ function CreateGrid(size)
 
 function ColorUnit()
 {
-	$('unit').mouseenter(function()
+	$('.unit').mouseenter(function()
 	{
 		$(this).css('background-color', 'black');
 	})

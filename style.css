@@ -1,8 +1,10 @@
 .unit
 {
-	height: 100px;
-	width: 100px;
+	height: 50px;
+	width: 50px;
 	background: red;
+  	float: left;
+	margin: 1px;
 }
 
 #grid
