@@ -9,7 +9,7 @@ $(document).ready(function()
 
 function CreateGrid(size) 
 {
-	$div = "<div> class = 'unit'></div>";
+	$div = "<div class = 'unit'></div>";
 	for (i = 0; i < size; i++)
 	{
 		$("#grid").append($div);
