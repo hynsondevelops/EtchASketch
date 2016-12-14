@@ -1,15 +1,50 @@
+body
+{
+  text-align: center;
+  background: #FFEC94;
+}
+
 .unit
 {
 	height: 50px;
 	width: 50px;
-	background: red;
-  	float: left;
-	margin: 1px;
+	background: white;
+  float: left;
+	margin: 0px;
 }
 
 #grid
 {
-	height: 1000px;
-	width: 1000px;
-	background: blue;
+  margin-left: auto;
+  margin-right: auto;
+	height: 500px;
+	width: 500px;
+	//background: blue;
+  outline: #000000 solid thick;
+}
+
+#reset
+{
+  height: 32px;
+  width: 100px;
+  margin: 30px;
+}
+
+#resize
+{
+  height: 32px;
+  width: 100px;
+  margin: 30px;
+}
+
+header
+{
+ margin: 10px; 
+}
+
+#github
+{
+ text-decoration:none;
+ color: black;
+ font-style: bold;
 }
