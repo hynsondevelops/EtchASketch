@@ -6,20 +6,19 @@ body
 
 .unit
 {
-	height: 50px;
-	width: 50px;
-	background: white;
+  height: 50px;
+  width: 50px;
+  background: white;
   float: left;
-	margin: 0px;
+  margin: 0px;
 }
 
 #grid
 {
   margin-left: auto;
   margin-right: auto;
-	height: 500px;
-	width: 500px;
-	//background: blue;
+  height: 500px;
+  width: 500px;
   outline: #000000 solid thick;
 }
 
@@ -37,12 +36,16 @@ body
   margin: 30px;
 }
 
-header
+
+
+#githubButton
 {
- margin: 10px; 
+  height: 32px;
+  width: 100px;
+  margin-bottom: 30px;
 }
 
-#github
+#githubtext
 {
  text-decoration:none;
  color: black;
